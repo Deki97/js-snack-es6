@@ -75,7 +75,7 @@ for(let i = 0; i < footballTeams.length; i++) {
     // console.log(thisTeam);
 
 
-// [] Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
+// [x] Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
     const {name, foulsSuffered} = thisTeam;
 
     const onlyNameAndFouls = {
