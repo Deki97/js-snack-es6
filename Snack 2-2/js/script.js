@@ -70,3 +70,12 @@ const studentsUpperCase = students.map((element, index, array) => {
 });
 
 console.log(studentsUpperCase);
+
+
+
+// 2-  Dobbiamo creare un nuovo array con gli studenti che hanno un totale di voti superiore a 70
+const studentsGradesOver70 = students.filter((element, index, array) => {
+    return element.grades > 70;
+});
+
+console.log(studentsGradesOver70);
