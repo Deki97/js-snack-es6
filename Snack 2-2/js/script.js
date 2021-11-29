@@ -79,3 +79,12 @@ const studentsGradesOver70 = students.filter((element, index, array) => {
 });
 
 console.log(studentsGradesOver70);
+
+
+
+// 3-  Dobbiamo creare un nuovo array di tutti gli studenti che hanno un totale di voti superiore a 70 e id superiore a 120
+const gradesOver70AndIdOver120 = students.filter((element, index, array) => {
+    return element.grades > 70 && element.id > 120;
+});
+
+console.log(gradesOver70AndIdOver120);
